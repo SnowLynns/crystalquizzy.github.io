@@ -1,0 +1,536 @@
+#logo {
+    text-align: center;
+}
+
+#quizzy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+#banner {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: blueviolet;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+/*lets play text*/
+h4 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+    text-align: left;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+}
+
+/* Top left text */
+.top-left {
+    text-align: left;
+    position: absolute;
+    top: 1px;
+}
+
+/* colour for the vehicles */
+#bicbg {
+    overflow: hidden;
+    width: 350;
+    height: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(255, 217, 0), rgb(255, 123, 0));
+}
+
+#carbg {
+    overflow: hidden;
+    width: 350;
+    height: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(43, 255, 0, 0.9), rgb(0, 197, 131, 0.9));
+    filter: brightness(50%);
+}
+
+#carbgunlock {
+    overflow: hidden;
+    width: 350;
+    height: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(43, 255, 0, 0.9), rgb(0, 197, 131, 0.9));
+}
+.col-4 {
+    border: 50;
+}
+
+#busbg {
+    overflow: hidden;
+    width: 350;
+    height: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(0, 132, 255));
+    filter: brightness(50%);
+}
+
+
+#bicycle, #car, #bus {
+    width: 300;
+    height: 230;
+    margin-left: 150;
+    object-fit: cover
+}
+
+/*flip bic and car bc theyre positioned wrongly*/
+#bicycle, #car {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 1vw;
+    padding-left: 2vw;
+}
+
+.nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.form-group {
+    border: 10;
+}
+
+img {
+    width: 200;
+}
+
+#icon {
+    width: 50;
+    margin-left: 2vw;
+}
+
+#alignright {
+    align-content: right;
+    padding-right: 2vw;
+}
+
+#playicon {
+    font-size: 25;
+    margin-top: 1vw;
+}
+
+#lockicon {
+    font-size: 25;
+    margin-top: 1vw;
+}
+
+i {
+    padding-right: 2vw;
+}
+
+h6 {
+    text-align: center;
+    color: rgb(183, 0, 255);
+}
+
+footer {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/* bicycle svg */
+.st0 {
+    fill: #CCCCCC;
+}
+
+.st1 {
+    fill: #999999;
+    stroke: #999999;
+    stroke-width: 0.4237;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-dasharray: 1.6946, 1.6946;
+}
+
+.st2 {
+    fill: none;
+    stroke: #CCCCCC;
+    stroke-width: 0.75;
+    stroke-miterlimit: 11.3386;
+}
+
+.st3 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 4.5;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st4 {
+    fill: none;
+    stroke: #E6E6E6;
+    stroke-width: 6.2538;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st5 {
+    fill: none;
+    stroke: #FFCC00;
+    stroke-width: 2.25;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st6 {
+    fill: #B3B3B3;
+}
+
+.st7 {
+    fill: #666666;
+}
+
+.st8 {
+    fill: none;
+    stroke: #4D4D4D;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 11.3386;
+    stroke-dasharray: 1.5, 1.5;
+}
+
+.st9 {
+    fill: none;
+    stroke: #4D4D4D;
+    stroke-width: 0.75;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st10 {
+    fill: none;
+    stroke: #3E3748;
+    stroke-width: 0.75;
+    stroke-miterlimit: 11.3386;
+}
+
+.st11 {
+    fill: #E6E6E6;
+}
+
+.st12 {
+    fill: none;
+    stroke: #F9F9F9;
+    stroke-width: 0.75;
+    stroke-linecap: round;
+    stroke-miterlimit: 11.3386;
+}
+
+.st13 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 1.5;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 6.1742;
+    stroke-dasharray: 1.5, 6;
+}
+
+.st14 {
+    fill: #808080;
+    stroke: #808080;
+    stroke-width: 0.7683;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 6.1742;
+}
+
+.st15 {
+    fill: none;
+    stroke: #1A1A1A;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-miterlimit: 11.3386;
+}
+
+.st16 {
+    fill: #1A1A1A;
+    stroke: #1A1A1A;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-miterlimit: 11.3386;
+}
+
+.st17 {
+    fill: #1A1A1A;
+}
+
+.st18 {
+    fill: #1A1A1A;
+    stroke: #000000;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-miterlimit: 11.3386;
+}
+
+.st19 {
+    fill: #1A1A1A;
+    stroke: #1A1A1A;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-miterlimit: 11.3386;
+}
+
+.st20 {
+    fill: #B3B3B3;
+    stroke: #CCCCCC;
+    stroke-width: 5.2483;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st21 {
+    fill: #AA0000;
+}
+
+.st22 {
+    fill: #4D4D4D;
+}
+
+.st23 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+    stroke-dasharray: 1.5, 6;
+}
+
+.st24 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 1.4318;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st25 {
+    fill: #F9F9F9;
+}
+
+.st26 {
+    fill-opacity: 0;
+    stroke: #CCCCCC;
+    stroke-width: 5.3011;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st27 {
+    fill-opacity: 0.9894;
+    stroke: #CCCCCC;
+    stroke-width: 5.3011;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+.st28 {
+    fill: #808080;
+}
+
+.st29 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 1.9092;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 14.4319;
+    stroke-dasharray: 1.9092, 7.6369;
+}
+
+.st30 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 1.8224;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 14.4319;
+}
+
+.st31 {
+    fill: none;
+    stroke: #808080;
+    stroke-width: 0.6142;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 2.528;
+    stroke-dasharray: 0.6142, 2.4567;
+}
+
+.st32 {
+    fill: #808080;
+    stroke: #808080;
+    stroke-width: 0.3146;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 2.528;
+}
+
+.st33 {
+    fill: #999999;
+}
+
+.st34 {
+    fill: #CCCCCC;
+    stroke: #B3B3B3;
+    stroke-width: 1.5;
+    stroke-linecap: square;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 11.3386;
+}
+
+/* wheel fixed pivot */
+#frontwheel, #backwheel, #carfrontwheel, #carbackwheel{
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+.quiz-container {
+    padding: 1em;
+    max-width: 100%;
+    margin: 1em auto
+}
+
+.quiz-container a {
+    text-decoration: none;
+    color: #333
+}
+
+#quiz-counter, #quiz-header, #quiz-results-screen, #quiz-start-screen {
+    text-align: center
+}
+
+.question {
+    font-size: 1.25em
+}
+
+.answers {
+    list-style: none;
+    padding: 0;
+}
+
+.answers a {
+    margin-left: 10;
+    display: inline-block;
+    width: min-content;
+    padding: .5em 1em;
+    margin-bottom: .5em;
+    background: #fff;
+    border-radius: 10px
+}
+
+ul li {
+    display: inline;
+}
+
+.answers a.correct {
+    background: #090
+}
+
+.answers a.incorrect {
+    background: #c00
+}
+
+.answers a.correct, .answers a.incorrect {
+    color: #fff
+}
+
+#quiz-controls {
+    background: #333;
+    color: #fff;
+    padding: .5em 1em;
+    text-align: center;
+    border-radius: 10px
+}
+
+#quiz-results {
+    font-size: 1.25em
+}
+
+#quiz-buttons a, .quiz-container .quiz-button {
+    display: inline-block;
+    padding: .5em 1em;
+    background: #333;
+    color: #fff;
+    border-radius: 10px
+}
+
+#quiz {
+    height: 370;
+    width: 480;
+    border-radius: 25px;
+    background-color: rgb(194, 130, 255);
+}
+
+#quiz-buttons a {
+    background: #fff;
+    color: #333
+}
+
+.quiz-results-state #quiz-controls {
+    background: 0 0;
+    padding: 0
+}
+
+.quiz-results-state #quiz-buttons a {
+    background: #333;
+    color: #fff
+}
+
+#stopwatch {
+    font-size: 40px;
+}
+
+.fullpage-wrapper {
+	width: 100%!important;
+	transform: none!important;
+}
+
+.fp-section {
+	width: 100%!important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.fp-section.active {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
